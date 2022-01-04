@@ -1,4 +1,4 @@
-# test
+# readme-generator
   # Description  
   no
   # Table of Contents
@@ -10,14 +10,15 @@
   - [Tests](#Test-Cases)
   - [Questions](#Questions)
   # Installation  
-  no
+  
   # Usage
-  ok
+  no
   # License 
-  Academic Free License v3.0 [![License Badge](https://img.shields.io/github/license/shinichiM/readme-generator.svg?style=flat-square)]('test.txt')
+  MIT [![License Badge](https://img.shields.io/github/license/shinichiM/readme-generator.svg?style=flat-square)](LICENSE.md)
+  
   # Contributors   
-  no
+  me
   # Test-Cases 
-  eys
+  undefined
   # Questions
-  no
+  shinichiM
