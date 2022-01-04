@@ -9,7 +9,7 @@ function renderLicenseBadge(user, repository) {
 // TODO: Create a function that returns the license link, this will be a link to the LICENSE file in the github repository.
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-
+  return ('LICENSE.md')
 }
 
 // TODO: Create a function that returns the license section of README
@@ -18,7 +18,7 @@ function renderLicenseSection(license) {
   if (!license) {return ''}
 
   return `# License 
-  ${data.license} ![License Badge](${renderLicenseBadge(data.user, data.contact)}) `
+  ${license} [![License Badge](${renderLicenseBadge(data.user, data.contact)})](${renderLicenseLink(license)})`
 }
 
 // TODO: Create a function to generate markdown for README

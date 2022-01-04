@@ -14,7 +14,7 @@
   # Usage
   ok
   # License 
-  Academic Free License v3.0 [![License Badge](https://img.shields.io/github/license/shinichiM/readme-generator.svg?style=flat-square)]('LICENSE')
+  Academic Free License v3.0 [![License Badge](https://img.shields.io/github/license/shinichiM/readme-generator.svg?style=flat-square)]('test.txt')
   # Contributors   
   no
   # Test-Cases 
