@@ -1,6 +1,4 @@
 # readme-generator
-  # Description  
-  no
   # Table of Contents
   - [Description](#Description)
   - [Installation](#Installation)
@@ -9,16 +7,18 @@
   - [Contributors](#Contributors)
   - [Tests](#Test-Cases)
   - [Questions](#Questions)
+  # Description  
+  no
   # Installation  
-  
+  no
   # Usage
   no
   # License 
-  MIT [![License Badge](https://img.shields.io/github/license/shinichiM/readme-generator.svg?style=flat-square)](LICENSE.md)
+  MIT [![License Badge](https://img.shields.io/github/license/shinichiM/readme-generator.svg?style=flat-square)](https://github.com/shinichiM/readme-generator/blob/main/LICENSE.txt)
   
   # Contributors   
-  me
+  no
   # Test-Cases 
-  undefined
+  no
   # Questions
   shinichiM

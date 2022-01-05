@@ -9,8 +9,8 @@ function renderLicenseBadge(data) {
 // TODO: Create a function that returns the license link, this will be a link to the LICENSE file in the github repository.
 // If there is no license, return an empty string
 function renderLicenseLink(data) {
-  if (!data.license) {return ''}
-  return ('LICENSE.md')
+  if (!data.license) {return ''} 
+  return (`https://github.com/${data.contact}/${data.title}/blob/main/LICENSE.txt`);
 }
 
 // TODO: Create a function that returns the license section of README
@@ -26,8 +26,6 @@ function renderLicenseSection(data) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-  # Description  
-  ${data.description}
   # Table of Contents
   - [Description](#Description)
   - [Installation](#Installation)
@@ -36,6 +34,8 @@ function generateMarkdown(data) {
   - [Contributors](#Contributors)
   - [Tests](#Test-Cases)
   - [Questions](#Questions)
+  # Description  
+  ${data.description}
   # Installation  
   ${data.installation}
   # Usage
