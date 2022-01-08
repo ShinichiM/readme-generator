@@ -8,17 +8,18 @@
   - [Tests](#Test-Cases)
   - [Questions](#Questions)
   # Description  
-  no
+  This is a script that will populate a readme.md file through user prompts.
   # Installation  
-  no
+  A user must fork the repository or download the repository from github. The user must have a recent copy of Node.js installed. Once downloaded, navigate to the root of the repository and npm install. This will install all dependencies that are used in this script. After execution, the readme.md file will be populated in the src directory
   # Usage
-  no
+  This application is for the use of automatic readme.md generation
   # License 
-  MIT [![License Badge](https://img.shields.io/github/license/shinichiM/readme-generator.svg?style=flat-square)](https://github.com/shinichiM/readme-generator/blob/main/LICENSE.txt)
+  This application is licensed under MIT [![License Badge](https://img.shields.io/github/license/shinichiM/readme-generator.svg?style=flat-square)](https://github.com/shinichiM/readme-generator/blob/main/LICENSE.txt)
   
   # Contributors   
-  no
+  Please feel free to add any additional features to this script.
   # Test-Cases 
-  no
+  undefined
   # Questions
-  shinichiM
+  [shinichiM]('https://github.com/shinichiM')
+  testing123@email.com

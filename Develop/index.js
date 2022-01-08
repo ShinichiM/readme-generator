@@ -57,6 +57,11 @@ const questions = [
         type: 'input',
         name: 'contact',
         message: 'Please provide your github account for any questions regarding the application:'
+    },
+    {
+        type:'input',
+        name: 'contact2',
+        message:'Please provide your email address and instructions on how to reach you regarding any questions about the application:'
     }
 ];
 

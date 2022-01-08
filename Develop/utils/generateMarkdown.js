@@ -2,7 +2,7 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(data) {
   if (!data.license) {return ''}
-
+  
   return `https://img.shields.io/github/license/${data.contact}/${data.title}.svg?style=flat-square`;
 } 
 
@@ -19,7 +19,7 @@ function renderLicenseSection(data) {
   if (!data.license) {return ''}
 
   return `# License 
-  ${data.license} [![License Badge](${renderLicenseBadge(data)})](${renderLicenseLink(data)})
+  This application is licensed under ${data.license} [![License Badge](${renderLicenseBadge(data)})](${renderLicenseLink(data)})
   `;
 }
 
@@ -46,10 +46,9 @@ function generateMarkdown(data) {
   # Test-Cases 
   ${data.test}
   # Questions
-  ${data.contact}
+  [${data.contact}]('https://github.com/${data.contact}')
+  ${data.contact2}
 `;
 }
 
 module.exports = generateMarkdown;
-
-console.log(renderLicenseBadge('MIT'));
